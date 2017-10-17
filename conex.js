@@ -15,5 +15,7 @@ function conect(hostBD, userBD, passwordBD, nameBD) {
                console.log('Hecho');   // create data.sql file;
   })
 };
+
+
 //hay que hacer aqui un evento para saber cuando termina
 exports.conect = conect;
